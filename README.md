@@ -47,18 +47,12 @@ The histogram shows a right-skewed age distribution at operation, peaking around
 The histogram shows a clear increase in operations performed over time, peaking in the early 1970s. This suggests there may have been advancements in surgical techniques or treatments during this period.
 
 ![ii_tumour_thickness](https://github.com/user-attachments/assets/bc406e2c-8d97-4754-b54d-c3c6c78135e0)
+![4](https://github.com/user-attachments/assets/6bad52e7-cfcf-40e4-81d7-f8b0c0a4c0ad)
 
 The box plot shows that most tumour thicknesses are between 0 and 4 mm, with a few outliers extending to 15 mm. This indicates that most tumours are relatively thin, but some cases have significantly thicker tumours.
 
+### Regressional Analysis
 
-
-## Data Professional Survey Dashboard 
-
-![Data Survey Dashboard](https://github.com/user-attachments/assets/345b1297-b043-4cc8-bf29-189458f327d7)
-
-- Interactive dashboard showing details about participants from USA only.
-
-![Data survey for USA](https://github.com/user-attachments/assets/00d8c1db-7336-4b55-8766-f7114cf95758)
 
 
 ## Findings
