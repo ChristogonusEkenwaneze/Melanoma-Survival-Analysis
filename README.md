@@ -1,7 +1,8 @@
-[melanoma.csv](https://github.com/user-attachments/files/18903923/melanoma.csv)# Melanoma-Survival-Analysis Report
+# Melanoma-Survival-Analysis Report
 
 - [Project Overview](#project_overview)
 - [Tools](#tools)
+- [Data Source](#data_source)
 - [Processes](#processes)
 - [Results](results)
 - [Recommendations and Future Direction](#recommendations_and_future_direction)
@@ -16,6 +17,10 @@ The analysis includes statistical summaries and visualizations, such as histogra
 
 - Excel
 - R
+
+## Data Source
+
+[melanoma.csv](https://github.com/user-attachments/files/18903923/melanoma.csv)
 
 ## Processes
 
@@ -81,7 +86,4 @@ Age by Gender: The graph's pronounced linear correlation indicates that age is n
 
 - Evaluate the efficacy of diverse treatment modalities concerning tumour attributes and patient-specific variables, including surgery, immunotherapy, and targeted therapies.
 
-- Analyse the heterogeneity of melanoma cancers, encompassing genetic differences and molecular subtypes, to identify possible targets for personalised therapies. 
-
-
-
+- Analyse the heterogeneity of melanoma cancers, encompassing genetic differences and molecular subtypes, to identify possible targets for personalised therapies.
