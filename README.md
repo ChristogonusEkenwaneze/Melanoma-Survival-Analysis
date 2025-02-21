@@ -28,6 +28,28 @@ The analysis includes statistical summaries and visualizations, such as histogra
 
 ### Graphical summaries of melanoma data
 
+![2](https://github.com/user-attachments/assets/0af14ffb-1523-48e0-b495-be29792344c7)
+
+The histogram above shows a skewed distribution of survival time, with a peak around 2000 days. A long tail to the right indicates that a small number of individuals survived much longer than the majority.
+
+![ii_Patience_status](https://github.com/user-attachments/assets/b2836c4d-ed26-4590-8e6b-d57a6333dff2)
+
+The bar plot shows that most patients stayed alive (status 2). A smaller number of patients died from melanoma (status 1), and an even smaller number died from other causes (status 3). 
+
+![11_Gender_](https://github.com/user-attachments/assets/f62ebef8-40fb-4bc7-b791-73a39a9b0355)
+
+![ii_age_distribution](https://github.com/user-attachments/assets/8a4788b2-c9e8-42b6-bff0-d878654f9b29)
+
+The histogram shows a right-skewed age distribution at operation, peaking around 50-60 years old. This indicates that most patients were older adults at the time of surgery.
+
+![3](https://github.com/user-attachments/assets/d4bfd83d-3980-4620-af06-6ff863767a7b)
+
+The histogram shows a clear increase in operations performed over time, peaking in the early 1970s. This suggests there may have been advancements in surgical techniques or treatments during this period.
+
+![ii_tumour_thickness](https://github.com/user-attachments/assets/bc406e2c-8d97-4754-b54d-c3c6c78135e0)
+
+The box plot shows that most tumour thicknesses are between 0 and 4 mm, with a few outliers extending to 15 mm. This indicates that most tumours are relatively thin, but some cases have significantly thicker tumours.
+
 
 
 ## Data Professional Survey Dashboard 
