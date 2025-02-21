@@ -5,6 +5,7 @@
 - [Data Source](#data_source)
 - [Processes](#processes)
 - [Results](results)
+- [Conclusion](#conclusion)
 - [Recommendations and Future Direction](#recommendations_and_future_direction)
 
 ## Project Overview
@@ -79,6 +80,10 @@ Tumour Thickness by Gender: The female line shows some deviation from linearity 
 
 Age by Gender: The graph's pronounced linear correlation indicates that age is normally distributed across both genders.
 
+
+## Conclusion
+
+In conclusion, the findings of this report are indicators of progress made towards more targeted therapies in the management of melanoma. However, current research is important to improve prognostics and treatment methods to increase survival and quality life of melanoma patients.
 
 ## Recommendations and Future Direction
 
