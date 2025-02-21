@@ -1,11 +1,10 @@
 [melanoma.csv](https://github.com/user-attachments/files/18903923/melanoma.csv)# Melanoma-Survival-Analysis Report
 
 - [Project Overview](#project_overview)
-- [Objectives](#objectives)
-- [Tool](#tool)
+- [Tools](#tools)
 - [Processes](#processes)
-- [Findings](#findings)
-- [Recommendations](#recommendations)
+- [Results](results)
+- [Recommendations and Future Direction](#recommendations_and_future_direction)
 
 ## Project Overview
 
@@ -13,7 +12,7 @@ This is an exploratory data analysis of the "Survival from Malignant Melanoma" d
 
 The analysis includes statistical summaries and visualizations, such as histograms, bar plots, and box plots, to illustrate distributions and trends in survival time, tumor characteristics, and demographic factors. These visuals help uncover data patterns, central tendencies, and potential outliers, setting the stage for  statistical modeling.
 
-## Tool
+## Tools
 
 - Excel
 - R
@@ -46,32 +45,43 @@ The histogram shows a right-skewed age distribution at operation, peaking around
 
 The histogram shows a clear increase in operations performed over time, peaking in the early 1970s. This suggests there may have been advancements in surgical techniques or treatments during this period.
 
-![ii_tumour_thickness](https://github.com/user-attachments/assets/bc406e2c-8d97-4754-b54d-c3c6c78135e0)
 ![4](https://github.com/user-attachments/assets/6bad52e7-cfcf-40e4-81d7-f8b0c0a4c0ad)
 
 The box plot shows that most tumour thicknesses are between 0 and 4 mm, with a few outliers extending to 15 mm. This indicates that most tumours are relatively thin, but some cases have significantly thicker tumours.
 
-### Regressional Analysis
+### Regressional Analysis and and appropriate Correlations 
+
+![5](https://github.com/user-attachments/assets/f78e2c39-2753-4ce4-8eb6-241ee0c17f18)
+
+![7](https://github.com/user-attachments/assets/efd45ee6-689f-4500-9ff0-74164ffe2e6f)
+
+![6](https://github.com/user-attachments/assets/6e64fe57-7ddf-4214-820a-2a6200050dc4)
+
+![Screenshot 2024-09-12 010249](https://github.com/user-attachments/assets/1228b461-656a-4cc0-9674-6e3809ca30b6)
+
+The relationship between tumour thickness and survival time is significant (p = 0.000679), with a slight negative correlation of -0.21, meaning survival time decreases as tumour thickness increases, though the impact is minimal. 
+
+Age is also a significant predictor of survival time (p = 1.12*10^-5) with a negative correlation of -0.3, implying survival time decreases by about 20 days per added year of age, though the relationship is weak to moderate. 
+
+The regression model shows a statistically significant relationship between age and tumour thickness (p = 0.00222), suggesting older patients tend to have slightly thicker tumours. However, the correlation of 0.21 indicates a weak relationship, so age alone doesn't strongly predict tumour thickness.
 
 
+![8](https://github.com/user-attachments/assets/366e4264-7c12-4ff9-a2ec-5a21d052027e)
 
-## Findings
+Survival Time by Gender: Both female and male survival times closely follow a normal distribution. The linear pattern in the QQ plot suggests that survival time is normally distributed for both genders.
 
-- Data Scientists earn the highest salaries at $132K, followed by Data Engineers ($102K), while Database Developers and students earn the least.
+Tumour Thickness by Gender: The female line shows some deviation from linearity in the middle quantiles, while the male line is closer to linear throughout. This indicates that tumour thickness does not conform to a normal distribution, with outliers affecting the general distribution. 
 
-- Male data professionals earn slightly more ($76K, 51%) than female professionals ($72K, 49%), indicating a minor gender salary gap.
+Age by Gender: The graph's pronounced linear correlation indicates that age is normally distributed across both genders.
 
-- Python is the most preferred programming language, with significantly more users than C/C++, SQL, and Java.
 
-- Work-life balance satisfaction is moderate (5.74/10), while salary satisfaction is lower (4.27/10), indicating some dissatisfaction with earnings.
+## Recommendations and Future Direction
 
-- The majority of survey participants are from the United States and India, with fewer respondents from other regions.
+- Investigate biological or lifestyle factors that may elucidate the disparities in survival rates across genders, encompassing hormonal influences, genetic variations, healthcare accessibility, or behavioural tendencies.
 
-## Recommendations
+- Evaluate the efficacy of diverse treatment modalities concerning tumour attributes and patient-specific variables, including surgery, immunotherapy, and targeted therapies.
 
-- Employers of data professional can introduce flexible work arrangements, mental health support, and workload management strategies to improve overall job satisfaction..
-  
-- Companies and employers of data professionals should review compensation structures, offer performance-based incentives, and provide clearer career progression pathways to enhance employee satisfaction.
+- Analyse the heterogeneity of melanoma cancers, encompassing genetic differences and molecular subtypes, to identify possible targets for personalised therapies. 
 
 
 
