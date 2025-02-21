@@ -87,3 +87,5 @@ Age by Gender: The graph's pronounced linear correlation indicates that age is n
 - Evaluate the efficacy of diverse treatment modalities concerning tumour attributes and patient-specific variables, including surgery, immunotherapy, and targeted therapies.
 
 - Analyse the heterogeneity of melanoma cancers, encompassing genetic differences and molecular subtypes, to identify possible targets for personalised therapies.
+
+[Click here to view the R script](Melanoma_Report./script.R)
