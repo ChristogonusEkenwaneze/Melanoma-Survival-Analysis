@@ -93,4 +93,4 @@ In conclusion, the findings of this report are indicators of progress made towar
 
 - Analyse the heterogeneity of melanoma cancers, encompassing genetic differences and molecular subtypes, to identify possible targets for personalised therapies.
 
-[Click here to view the R script](Melanoma_Report./script.R)
+[Click here to view the R script](melanoma_report./script.R)
