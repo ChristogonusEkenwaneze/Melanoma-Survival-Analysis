@@ -1,4 +1,4 @@
-# Melanoma-Survival-Analysis Report
+[melanoma.csv](https://github.com/user-attachments/files/18903923/melanoma.csv)# Melanoma-Survival-Analysis Report
 
 - [Project Overview](#project_overview)
 - [Objectives](#objectives)
@@ -11,26 +11,24 @@
 
 This is an exploratory data analysis of the "Survival from Malignant Melanoma" dataset, focusing on identifying and evaluating prognostic factors that influence survival outcomes.The key variables such as tumor thickness, ulceration, age at operation, and gender are examined to understand their impact on patient survival and highlight patterns that may inform clinical management strategies. 
 
-This report provides an exploratory data analysis of the "Survival from Malignant Melanoma" dataset, focusing on identifying and evaluating prognostic factors that influence survival outcomes.The key variables such as tumor thickness, ulceration, age at operation, and gender are examined to understand their impact on patient survival and highlight patterns that may inform clinical management strategies. 
-
 The analysis includes statistical summaries and visualizations, such as histograms, bar plots, and box plots, to illustrate distributions and trends in survival time, tumor characteristics, and demographic factors. These visuals help uncover data patterns, central tendencies, and potential outliers, setting the stage for  statistical modeling.
 
 ## Tool
 
 - Excel
 - R
-Data Source   
-[Power BI - Data Professional Survey.xlsx](https://github.com/user-attachments/files/18885479/Power.BI.-.Data.Professional.Survey.xlsx)
 
 ## Processes
 
 - Data Cleaning and Preparation
 - Analysis
 - Visualisation
-  
-### Power query view showing applied steps for cleaning of data.
 
-![Data Survey Power Query](https://github.com/user-attachments/assets/27cef615-9341-4911-8bec-c10b12b1d008)
+## Results
+
+### Graphical summaries of melanoma data
+
+
 
 ## Data Professional Survey Dashboard 
 
